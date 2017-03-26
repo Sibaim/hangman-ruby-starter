@@ -1,13 +1,8 @@
 class RandomWord
   attr_reader :word
-
-  WORDS = %w(programming monkeybusiness rubyesque styleguide)
+  WORDS = %w(programming monkey business ruby style guide)
 
   def initialize
     @word = WORDS.sample
-  end
-
-  def positions_for(characters: [])
-    # for you to implement :)
   end
 end
